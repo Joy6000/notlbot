@@ -16,7 +16,7 @@ class notlbot2 extends Discord.Client {
         const disbut = require('discord-buttons')
         const reactionRoles = require('./reactionRoles')
         disbut(client)
-        reactionRoles('811688285315006464', client)
+        
         
         new bot(client, {
             commandsDir: 'commands',
